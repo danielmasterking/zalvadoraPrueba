@@ -37,8 +37,8 @@ class Auth extends CI_Controller {
         $this->form_validation->set_rules('password', 'Contraseña', 'required');
         $this->form_validation->set_message('valid_email', 'Debes ingresar un correo válido.');
 
-        $username = $this->input->post('username');
-        $password = $this->input->post('password');
+        $username = $this->security->xss_clean($this->input->post('username'));
+        $password = $this->security->xss_clean($this->input->post('password'));
 
         if($this->form_validation->run()) {
 
