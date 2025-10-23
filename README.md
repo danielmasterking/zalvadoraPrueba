@@ -1,9 +1,17 @@
 # CodeIgniter 2
-Open Source PHP Framework (originally from EllisLab)
 
-For more info, please refer to the user-guide at http://www.codeigniter.com/userguide2/  
-(also available within the download package for offline use)
+#INSTALACION PRUEBA DESARROLLO
 
-**WARNING:** *CodeIgniter 2.x is no longer under development and only receives security patches until October 31st, 2015.
-Please update your installation to the latest CodeIgniter 3.x version available
-(upgrade instructions [here](http://www.codeigniter.com/userguide3/installation/upgrade_300.html)).*
+#REQUISITOS
+
+  - XAMPP  PHP 5.6
+  - Nombrar carpeta proyecto zalvadoraPrueba
+  - instalar base de datos adjunto copia en la raiz zalvadora.sql (usuario de prueba admin para ingresar admin@zalvadora.com : 123456)
+
+
+#CLONAR REPOSITORIO
+  https://github.com/danielmasterking/zalvadoraPrueba.git
+
+#CONFIGURACIONES
+  - credenciales base de datos archivo  config/database
+  - base url config/config.php $config['base_url'] = 'http://localhost:8080/zalvadoraPrueba/';
