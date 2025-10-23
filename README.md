@@ -15,3 +15,6 @@
 #CONFIGURACIONES
   - credenciales base de datos archivo  config/database
   - base url config/config.php $config['base_url'] = 'http://localhost:8080/zalvadoraPrueba/';
+
+#ANOTACION
+  - yo use puerto 8080 porque el 80 me aparecia ocupado puede modificarse por el de su eleccion 
