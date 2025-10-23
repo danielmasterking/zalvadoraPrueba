@@ -7,7 +7,7 @@
 <div class="mb-3">
     <form method="get" action="<?= base_url() . 'index.php/products'?>">
         <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Buscar producto por nombre o SKU" name="search" value="<?= isset($_GET['search']) ? $_GET['search'] : '' ?>">
+            <input type="text" class="form-control" placeholder="Buscar producto..." name="search" value="<?= isset($_GET['search']) ? $_GET['search'] : '' ?>">
             <button class="btn btn-outline-secondary" type="submit">Buscar</button>
         </div>
     </form>
