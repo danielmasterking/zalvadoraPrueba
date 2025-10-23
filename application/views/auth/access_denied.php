@@ -1,0 +1,1 @@
+<h1 class="text-center">Acceso denegado</h1>
